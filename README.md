@@ -1,6 +1,6 @@
 # Reducing-Food-Waste-in-Schools
 ### Introduction
-Project : CLOUDBREAK</br>
+Project : Reducing-Food-Waste-in-Schools </br>
 University Name: SRM</br>
 Course: IT</br>
 ### Project Problem Statement:
@@ -53,21 +53,3 @@ Softwares to download locally:
 5.	Web Server: Apache Tomcat 8.5
 
 
-
-
-
-
-### Deployment Instructions on Local
-1.	Prerequisite Softwares: Java8 Runtime, Maven, Apache Tomcat 8.5, Eclipse, MySQL 5.7.
-2.	Download code from Github.
-3.	Set up DynamoDB User table with fields specified in DynamoDBUser.schema
-4.	Run DBScript.sql on MySQL instance.
-5.	Run the standalone application MLDataGenerator.java
-6.	Run the standalone application DynamoDbDataGenerator.java
-7.	Update applications.properties with MySQL URL, Username and Password.
-8.	Update application.properties with access key and secret.
-9.	Update application.properties with CloudFront URL.
-10.	Run the instruction mvn clean install on project pom.xml
-11.	Change the Tomcat server.xml (in conf/server.xml) <host> to run your application as the root application
-12.	Deploy the cloudbread.war folder in Tomcat webapps folder.
-13.	Run the startup.sh/startup.bat in bin folder
