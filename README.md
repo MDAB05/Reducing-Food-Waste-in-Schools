@@ -1,6 +1,6 @@
 # Reducing-Food-Waste-in-Schools
 ### Introduction
-Project : Reducing-Food-Waste-in-Schools</br>
+Project : CLOUDBREAK</br>
 University Name: SRM</br>
 Course: IT</br>
 ### Project Problem Statement:
@@ -71,4 +71,3 @@ Softwares to download locally:
 11.	Change the Tomcat server.xml (in conf/server.xml) <host> to run your application as the root application
 12.	Deploy the cloudbread.war folder in Tomcat webapps folder.
 13.	Run the startup.sh/startup.bat in bin folder
-14.	You can now access the application a
